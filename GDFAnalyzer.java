@@ -229,7 +229,6 @@ public class GDFAnalyzer {
 		cache.put("h21", "21");
 		cache.put("h22", "22");
 		cache.put("h23", "23");
-<<<<<<< HEAD
 		
 		cache.put("m00", "00");
 		cache.put("m0", "00");
@@ -245,8 +244,6 @@ public class GDFAnalyzer {
 		cache.put("m45", "45");
 		cache.put("m50", "50");
 		cache.put("m55", "55");
-=======
->>>>>>> 98176acf88469ecea6b8ecc4b05761ff4c1a4a79
 	}
 
 	private static String analyzeDate(String date, String to) throws Exception {
@@ -475,7 +472,6 @@ public class GDFAnalyzer {
 	}
 
 	private static String decodeh(int value) {
-<<<<<<< HEAD
 		if (value < 0) {
 			return null;
 		}
@@ -487,18 +483,10 @@ public class GDFAnalyzer {
 				v = "0" + v;
 			}
 		}		
-=======
-		String model = modelMap.get(7);
-		String v = model.replaceFirst("%s", value + "");
-		if (v.length() < 2) {
-			v = "0" + v;
-		}
->>>>>>> 98176acf88469ecea6b8ecc4b05761ff4c1a4a79
 		return v;
 	}
 
 	private static String decodem(int value) {
-<<<<<<< HEAD
 		if (value < 0) {
 			return null;
 		}
@@ -509,12 +497,6 @@ public class GDFAnalyzer {
 			if (v.length() < 2) {
 				v = "0" + v;
 			}
-=======
-		String model = modelMap.get(8);
-		String v = model.replaceFirst("%s", value + "");
-		if (v.length() < 2) {
-			v = "0" + v;
->>>>>>> 98176acf88469ecea6b8ecc4b05761ff4c1a4a79
 		}
 		return v;
 	}
