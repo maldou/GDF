@@ -1,4 +1,4 @@
-package com.amap.bigdata.fuse.tools.util;
+package com.maldou.tools.util;
 
 import java.util.HashMap;
 import java.util.Map;
